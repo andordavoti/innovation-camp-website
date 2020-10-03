@@ -60,10 +60,16 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  max-width: 1140px;
+}
+
+@media only screen and (max-width: 600px) {
+  .two-cards {
+    flex-direction: column;
+  }
 }
 
 .card {
-  flex-direction: column;
   margin: 25px;
   padding: 25px;
   border-radius: 25px;
