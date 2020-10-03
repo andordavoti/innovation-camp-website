@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  max-width: 1140px;
+}
+
+.title-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 25px;
+}
+
+nav .nav-item {
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+nav .nav-item:focus,
+nav .nav-item:hover {
+  color: grey;
+}
+
+.center-text {
+  text-align: center;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.two-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  flex-direction: column;
+  margin: 25px;
+  padding: 25px;
+  border-radius: 25px;
+  background-color: #eee;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
