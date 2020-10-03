@@ -38,6 +38,10 @@ nav .nav-item {
   font-size: 20px;
 }
 
+nav .active {
+  text-decoration: underline;
+}
+
 nav .nav-item:focus,
 nav .nav-item:hover {
   color: grey;
