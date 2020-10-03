@@ -9,9 +9,7 @@ body {
 
 .nav-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   background-color: black;
   width: 100%;
 }
@@ -19,8 +17,11 @@ body {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 75px;
   max-width: 1140px;
+  width: 100%;
 }
 
 .title-link {
